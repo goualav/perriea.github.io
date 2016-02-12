@@ -1,0 +1,85 @@
+{ 
+	"html" : [
+		{
+			"perso" : [
+				{
+					"name" : "Aurélien PERRIER",
+					"old" : "21/12/1995",
+					"adress" : "Issy-Les-Moulineaux (92130)",
+					"img" : "image01.jpg",
+					"description" : "Developper + Admin Sys = DevOps ❤"
+				}
+			],
+
+			"company" : [
+				{
+					"name" : "Veryswing S.A.S",
+					"address" : "2 Place de Touraine, 78000 Versailles",
+					"job" : "DevOps",
+					"ago" : "11/01/2016"
+				}
+			]
+		}
+	],
+	"api" : [
+		{ 
+			"name" : "github",
+			"url" : "api.github.com", 
+			"user" : "perriea", 
+			"key_public" : null, 
+			"key_private" : null,
+			"actions" : [
+				{
+					"title" : null,
+					"url" : "hbj"
+				},
+				{
+					"title" : "test",
+					"url" : "hbj"
+				}
+			]
+		}, 
+		{
+			"name" : "twitter",
+			"url" : "api.twitter.com", 
+			"user" : "perriea89", 
+			"key_public" : null, 
+			"key_private" : null,
+			"actions" : [
+				{
+					"title" : null,
+					"url" : "hbj"
+				},
+				{
+					"title" : "test",
+					"url" : "hbj"
+				}
+			]
+		},
+		{
+			"name" : "linkedin",
+			"url" : "api.linkedin.com", 
+			"user" : "a.perrier89@gmail.com", 
+			"key_public" : null, 
+			"key_private" : null,
+			"actions" : [
+				{
+					"title" : null,
+					"url" : "hbj"
+				},
+				{
+					"title" : "test",
+					"url" : "hbj"
+				}
+			]
+		},
+		{
+			"name" : "mail",
+			"url" : "mailto:perrie_a@etna-alternance.net", 
+			"user" : null, 
+			"key_public" : null, 
+			"key_private" : null,
+			"actions" : []
+		}
+	]
+}
