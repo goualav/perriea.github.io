@@ -4,9 +4,6 @@
 @import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,200");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.7/jquery.fullPage.css");
-@import url("");
-@import url("");
-@import url("");
 /*@import url("");*/
 /* Reset CSS
  * --------------------------------------- */
@@ -263,7 +260,7 @@ h1.style1, h2.style1, p.style1
 }
 
 #section0{
-      background-image: linear-gradient(to top, rgba(0,0,0,0.722), rgba(0,0,0,0.722)), url(./assets/img/page01.jpg);
+      background-image: linear-gradient(to top, rgba(0,0,0,0.722), rgba(0,0,0,0.722)), url("https://raw.githubusercontent.com/perriea/perriea.github.io/master/assets/img/page01.jpg");
       padding: 0 0 0 0;
     }
 

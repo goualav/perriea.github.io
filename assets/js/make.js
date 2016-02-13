@@ -45,7 +45,7 @@ function user ()
 
 	if ($.isArray(social)) 
 	{
-		$.get("./assets/data/data.json", function(data) 
+		$.get("https://raw.githubusercontent.com/perriea/perriea.github.io/master/assets/data/data.json", function(data) 
 		{
 			perso(data.html);
 			for (var i = 0; i < social.length; i++) 
