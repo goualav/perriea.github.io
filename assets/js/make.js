@@ -1,16 +1,13 @@
 user();
-var b = document.body;
-onload = function() {
-    setTimeout(function() {
-        b.className = b.className.replace(/\bis-loading\b/,'is-playing');
-        setTimeout(function() {
-           	b.className = b.className.replace(/\bis-playing\b/,'is-ready')
-        },2500);
-    },100)
-};
-if(navigator.userAgent.match(/(MSIE|rv:11\.0)/)) 
-    b.className+=' is-ie';
-
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+        sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff'],
+        anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+        menu: '#menu',
+        css3: true,
+        scrollingSpeed: 1000
+    });
+});
 
 function twitter (data) 
 {
