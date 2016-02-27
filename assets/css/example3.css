@@ -280,7 +280,7 @@ h1.style1, h2.style1, p.style1
     /*Adding background for the slides
     * --------------------------------------- */
     #slide1{
-      background-image: url(./assets/img/page02.jpg);
+      background-image: url("https://raw.githubusercontent.com/perriea/perriea.github.io/master/assets/img/page02.jpg");
       padding: 0 0 0 0;
     }
     #slide2{
